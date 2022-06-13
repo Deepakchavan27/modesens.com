@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #logo {
@@ -7,26 +8,28 @@
     margin-right: 2%;
 }
 
-.carousel-inner {
 
-    margin-left: 1%;
-    margin-right: 13%;
+#carouselExampleControls {
+    box-sizing: border-box;
+    padding-left: 190px;
 }
-#footer{
+
+#footer {
     width: 95%;
     margin: auto;
 }
-#footer_main{
 
-    display: flex ;
+#footer_main {
+
+    display: flex;
     margin: auto;
     justify-content: space-between;
     padding: 40px;
-    
+
 }
 
 .footer-h6 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     letter-spacing: 2.8px;
     line-height: 18px;
     font-size: 15.4px;
@@ -38,38 +41,206 @@
     letter-spacing: 0.5px;
     line-height: 23.8px;
     font-size: 14px;
-    font-weight:600;
+    font-weight: 600;
     color: #7f7f7f;
     margin-bottom: -1%;
+
 }
-#lower_footer{
+
+.footer-p:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+#lower_footer {
     display: flex;
     justify-content: space-around;
 
 }
-#lower_footer_div1{
+
+#lower_footer_div1 {
     display: flex;
     height: 50px;
     width: 90%;
-  
+
 }
-#lower_footer_div2{
+
+#lower_footer_div2 {
     width: 25%;
+    cursor: pointer;
 }
-.footer_img{
+
+.footer_img {
 
     height: 40px;
     cursor: pointer;
 }
-.footer_p{
+
+.footer_p {
     margin-top: 1%;
     margin-left: 1%;
     font-size: 13px;
     font-weight: 600;
 }
-#submit{
+
+#submit {
     height: 40px;
     width: 100%;
     font-weight: 600;
     border: 0.5px solid black;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}
+
+#featured {
+
+    text-align: center;
+    margin-top: 3%;
+}
+
+#featured h3 {
+    font-size: 23.94PX;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
+#featured p {
+    color: #6c757d;
+    font-size: 20PX;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+#featured~div {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    width: 75%;
+    margin: auto;
+    gap: 5px;
+}
+
+#featured~div img {
+    height: 139.92px;
+    width: 90%;
+    cursor: pointer;
+}
+
+#special {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+#special>div img {
+    height: 440px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#special>div {
+    text-align: center;
+}
+
+#gucci {
+    width: 40%;
+}
+
+#special>div button {
+    border: 0.2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 32%;
+
+}
+
+#special>div button:hover {
+    background-color: black;
+    color: white;
+}
+
+#special~div {
+    margin-top: 2%;
+    text-align: center;
+    margin-right: 1%;
+}
+
+#special>div>div {
+    margin-top: 5%;
+}
+#special>div>div>h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    Color: #1c1c1c
+}
+
+#special>div>div>p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    Color: #1c1c1c
+}
+
+#special~div button {
+    border: 0.2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 8%;
+}
+
+#special~div button:hover {
+    background-color: black;
+    color: white;
+}
+
+#special_offers {
+    text-align: center;
+    margin-bottom: 1%;
+
+}
+#special_offers > h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    Color: #1c1c1c
+}
+#trending_flex{
+    display: flex;
+    height: 400px;
+    width: 75%;
+    margin: auto;
+    border: 1px solid red;
+    gap: 10px;
+}
+#trending_flex > div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+    text-align: center;
+
+}
+#trending_flex > div > img{
+    height: 200px;
+    width: 75%;
+    margin-left: 15%;
+    border: 1px solid red;
+}
+.trending_p{
+    font-weight: 600;
+    font-size: 14x;
+    line-height: 18px;
+    Color: #1c1c1c
+}
+.tending-p{
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 18px;
+    Color: #8e8e8e
 }

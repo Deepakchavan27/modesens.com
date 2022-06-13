@@ -56,7 +56,7 @@ let footer = () => {
     <div id="lower_footer">
         <div id="lower_footer_div1">
             <img src="https://cdn.modesens.com/static/img/20180905footer_logo.svg" alt="logo">
-            <p class="footer_p">2022, ModeSens Inc</p>
+            <p class="footer_p">©2022, ModeSens Inc</p>
         </div>
         <div id="lower_footer_div2">
             <img class="footer_img" src="https://cdn.modesens.com/static/img/20181008footer-pit.svg" alt="">
