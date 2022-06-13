@@ -101,10 +101,11 @@
     margin-top: 3%;
 }
 
-#featured h3 {
+.headline {
     font-size: 23.94PX;
     line-height: 40px;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 #featured p {
@@ -175,7 +176,8 @@
 #special>div>div {
     margin-top: 5%;
 }
-#special>div>div>h5{
+
+#special>div>div>h5 {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -206,41 +208,141 @@
     margin-bottom: 1%;
 
 }
-#special_offers > h3{
+
+#special_offers>h3 {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     Color: #1c1c1c
 }
-#trending_flex{
+
+#trending_flex {
     display: flex;
     height: 400px;
     width: 75%;
     margin: auto;
-    border: 1px solid red;
     gap: 10px;
 }
-#trending_flex > div{
+
+#trending_flex>div {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin: auto;
     text-align: center;
+    height: 400px;
+    width: 80%;
+    cursor: pointer;
 
 }
-#trending_flex > div > img{
+
+#trending_flex>div>img {
     height: 200px;
     width: 75%;
-    margin-left: 15%;
-    border: 1px solid red;
+    margin-top: 5%;
 }
-.trending_p{
+
+.trending_p {
     font-weight: 600;
     font-size: 14x;
     line-height: 18px;
     Color: #1c1c1c
 }
-.tending-p{
+
+.tending-p {
     font-weight: 600;
-    font-size: 8px;
+    font-size: 11px;
     line-height: 18px;
     Color: #8e8e8e
+}
+
+#trending_flex>div>div {
+    text-align: right;
+    margin-right: 5%;
+}
+
+#trending_flex~div button {
+    border: 0.2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 15%;
+}
+
+#trending_flex~div button:hover {
+    background-color: black;
+    color: white;
+}
+
+#trending_flex~div {
+    margin-top: 2%;
+    margin-left: 46%;
+}
+
+#community~div {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    gap: 20px;
+}
+
+#community~div img {
+    height: 300px;
+    width: 100%;
+}
+
+#community~div~div button {
+    border: 0.2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 10%;
+    margin-left: 47%;
+    margin-top: 2%;
+}
+
+#community~div~div button:hover {
+    background-color: black;
+    color: white;
+}
+
+#last-div {
+    background-color: #f8f7f6;
+}
+
+#last_div {
+
+    justify-content: space-around;
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#last_div>div {
+    text-align: center;
+    padding: 30px;
+}
+
+.button>button {
+    border: 0.5px solid black;
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+#mobile {
+    height: 400px;
+    width: 65%;
+}
+
+#last_div>div>p {
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -1%;
+}
+
+#last_div_img {
+    margin-top: -10%;
 }
