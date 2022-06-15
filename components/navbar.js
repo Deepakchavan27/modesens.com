@@ -1,5 +1,5 @@
 let navbar = () => {
-    return `<nav class="navbar navbar-expand-lg bg-light">
+    return `   <nav class="navbar navbar-expand-lg bg-light">
     <nav class="navbar bg-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -12,31 +12,72 @@ let navbar = () => {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active dropdown-toggle" aria-current="page" href="#">WOMEN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active dropdown-toggle" href="#">MENS</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        WOMEN
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">SHOP ALL</a></li>
+                        <li><a class="dropdown-item" href="clothing.html">CLOTHING</a></li>
+                        <li><a class="dropdown-item" href="#">BAGS</a></li>
+                        <li><a class="dropdown-item" href="#">SHOES</a></li>
+                        <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                        <li><a class="dropdown-item" href="#">BEAUTY</a></li>
+                        <li><a class="dropdown-item" href="#">SALE</a></li>
+                        <li><a class="dropdown-item" href="#">OCCASION</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        MEN
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">SHOP ALL</a></li>
+                        <li><a class="dropdown-item" href="clothing.html">CLOTHING</a></li>
+                        <li><a class="dropdown-item" href="#">BAGS</a></li>
+                        <li><a class="dropdown-item" href="#">SHOES</a></li>
+                        <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                        <li><a class="dropdown-item" href="#">GROOMING</a></li>
+                        <li><a class="dropdown-item" href="#">SALE</a></li>
+                        <li><a class="dropdown-item" href="#">OCCASION</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         BEAUTY
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">SHOP ALL</a></li>
+                        <li><a class="dropdown-item" href="#">WOMEN'S BEAUTY</a></li>
+                        <li><a class="dropdown-item" href="#">MEN'S GROOMING</a></li>
+                        <li><a class="dropdown-item" href="#">KID'S CARE</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active dropdown-toggle">KIDS</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        KIDS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">SHOP ALL</a></li>
+                        <li><a class="dropdown-item" href="#">BABY GIRLS</a></li>
+                        <li><a class="dropdown-item" href="#">BABY BOYS</a></li>
+                        <li><a class="dropdown-item" href="#">GIRLS</a></li>
+                        <li><a class="dropdown-item" href="#">BOYS</a></li>
+                        <li><a class="dropdown-item" href="#">SALE</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         HOME
                     </a>
@@ -50,21 +91,18 @@ let navbar = () => {
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         OFFERS
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">COUPONS</a></li>
+                        <li><a class="dropdown-item" href="#">WOMEN'S SALE</a></li>
+                        <li><a class="dropdown-item" href="#">MEN'S SALE</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         DESIGNERS
                     </a>
@@ -78,7 +116,7 @@ let navbar = () => {
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-item href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         COMMUNITY
                     </a>
@@ -92,18 +130,11 @@ let navbar = () => {
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-item" href="https://modesens.com/why-modesens/" id="navbarDropdown"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         WHY MODESENS
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    
                 </li>
             </ul>
 
@@ -112,7 +143,7 @@ let navbar = () => {
 
 
             <li class="nav-item dropdown">
-                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                <a class="nav-link active dropdown-item" href="#" id="navbarDropdown" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-regular fa-user"></i>
                 </a>
