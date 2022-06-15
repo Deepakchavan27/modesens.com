@@ -95,6 +95,11 @@
     color: white;
 }
 
+.nav-link {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
 #featured {
 
     text-align: center;
