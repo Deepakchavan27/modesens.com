@@ -343,4 +343,3 @@ let productPage = (el) => {
     localStorage.setItem("detail", JSON.stringify(product_detail));
     window.location.href = "productDetail.html"
 }
-
