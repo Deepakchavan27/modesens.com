@@ -17,9 +17,10 @@ let final = JSON.parse(localStorage.getItem("checkout")) || [];
 
 
 let container = document.getElementById("container");
-cartData.map((el) => {
+cartData.map((el,i) => {
     let div = document.createElement("div");
     div.setAttribute("id", "div")
+    
 
     let nav = document.createElement("h6");
     nav.innerText = "MODESENS / DESIGNERS / BURBERRY / WOMEN /CLOTHING"
@@ -79,12 +80,20 @@ cartData.map((el) => {
         checkout(el);
     });
 
+    let remove = document.createElement("button");
+    remove.innerText = "REMOVE";
+    remove.setAttribute("id","remove")
+    remove.addEventListener("click",()=>{
+        removeProduct(el,i);
+    })
+
+
 
     div_lowerImg.append(photo, p);
     div_left.append(img, div_lowerImg);
     div_price.append(price, size);
     div_size.append(store, guide)
-    div_right.append(name, dis, div_price, div_size, earn, btn)
+    div_right.append(name, dis, div_price, div_size, earn, btn, remove)
 
     div.append(div_left, div_right)
 
@@ -94,9 +103,16 @@ cartData.map((el) => {
 let checkout = (el) => {
     console.log(el)
     final.push(el);
-    localStorage.setItem("checkout",JSON.stringify(final));
+    localStorage.setItem("checkout", JSON.stringify(final));
     window.location.href = "checkout.html"
 }
 
 
+let removeProduct = (el,i) =>{
+    //console.log(el,i)
+    cartData.splice(i,1);
+    console.log(cartData)
+    localStorage.setItem("add_to_bag", JSON.stringify(cartData));
+    window.location.reload();
+}
 
