@@ -95,6 +95,22 @@
     background-color: black;
     color: white;
 }
+#imglogo{
+    height: 20px;
+    width: 25%;
+}
+#span{
+    font-weight: 600;
+}
+#cartlogo{
+    margin: auto;
+    margin-top: -70%;
+
+}
+
+
+
+
 
 .nav-link {
     margin-right: 10px;

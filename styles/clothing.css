@@ -89,7 +89,20 @@
     font-weight: 600;
     border: 0.5px solid black;
 }
+#imglogo{
+    height: 20px;
+    width: 25%;
+}
+#span{
+    font-weight: 600;
+}
+#cartlogo{
+    margin: auto;
+    margin-top: -70%;
 
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
 #submit:hover {
     background-color: black;
     color: white;

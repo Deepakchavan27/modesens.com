@@ -6,8 +6,7 @@
 #logo {
     margin-left: 2%;
     margin-right: 2%;
-
-}   
+}
 
 
 #carouselExampleControls {
@@ -89,11 +88,6 @@
     font-weight: 600;
     border: 0.5px solid black;
 }
-
-#submit:hover {
-    background-color: black;
-    color: white;
-}
 #imglogo{
     height: 20px;
     width: 25%;
@@ -103,78 +97,9 @@
 }
 #cartlogo{
     margin: auto;
-    margin-top: -40%;
+    margin-top: -30%;
 
 }
 
 
-
-
-
-
-#container{
-    width: 75%;
-    margin: auto;
-}
-#div{
-    display: flex;
-    height: 400px;
-    width: 80%;
-    margin: auto;
-    margin-top: 2%;
-
-}
-#div_left{
-  
-    width: 50%;
-    margin-right: 10%;
-    cursor: pointer;
-}
-#div_left > img{
-    height: 350px;
-   margin-bottom: 5%;
-}
-#div_right{
-    margin: 30px;
-}
-#div_right > button{
-    background-color: black;;
-    color: white;
-    border: 0px;
-    font-weight: 100;
-    font-size: 13px;
-    height: 35px;
-    width: 100%;
-}
-
-
-#div_lowerImg{
-    display: flex;
-    justify-content: space-between;
-}
-#div_price{
-    display: flex;
-    gap: 10px;
-}
-#div_size{
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-#div_price > p{
-    color:  #8e8e8e ;
-    font-weight: 600;
-}
-#guide{
-    color:  #8e8e8e ;
-    font-weight: 600;
-    cursor: pointer;
-}
-#store{
-    text-decoration: underline;
-    font-weight: 600;
-    cursor: pointer;
-}
-#dis{
-    font-weight: 600;
-}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
