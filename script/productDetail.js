@@ -11,7 +11,9 @@ let footer1 = document.getElementById("footer").innerHTML = footer();
 
 
 let product = JSON.parse(localStorage.getItem("detail"));
-console.log(product)
+// console.log(product)
+
+let cartBag = JSON.parse(localStorage.getItem("add_to_bag")) || [];;
 
 
 let container = document.getElementById("container");
@@ -70,16 +72,32 @@ product.map((el) => {
     let earn = document.createElement("p");
     earn.innerText = `Earn up to ${Math.floor(Math.random() * 1000)} points from this purchase. Learn more`
 
+    let btn = document.createElement("button");
+    btn.innerText = `ADD TO SHOPPING BAG`;
+    btn.setAttribute("id", "add_to_bag")
+    btn.addEventListener("click", () => {
+        bag(el);
+    });
+
+
     div_lowerImg.append(photo, p);
     div_left.append(img, div_lowerImg);
     div_price.append(price, size);
     div_size.append(store, guide)
-    div_right.append(name, dis, div_price, div_size, earn)
+    div_right.append(name, dis, div_price, div_size, earn, btn)
 
     div.append(div_left, div_right)
 
     container.append(nav, div)
-})
+});
+
+
+let bag = (el) => {
+    console.log(el)
+    cartBag.push(el);
+    localStorage.setItem("add_to_bag",JSON.stringify(cartBag));
+    window.location.href = "cart.html"
+}
 
 
 
