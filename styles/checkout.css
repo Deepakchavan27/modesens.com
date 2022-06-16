@@ -6,9 +6,7 @@
 #logo {
     margin-left: 2%;
     margin-right: 2%;
-
-}   
-
+}
 
 #carouselExampleControls {
     box-sizing: border-box;
@@ -21,16 +19,13 @@
 }
 
 #footer_main {
-
     display: flex;
     margin: auto;
     justify-content: space-between;
     padding: 40px;
-
 }
 
 .footer-h6 {
-
     letter-spacing: 2.8px;
     line-height: 18px;
     font-size: 15.4px;
@@ -45,7 +40,6 @@
     font-weight: 600;
     color: #7f7f7f;
     margin-bottom: -1%;
-
 }
 
 .footer-p:hover {
@@ -56,14 +50,12 @@
 #lower_footer {
     display: flex;
     justify-content: space-around;
-
 }
 
 #lower_footer_div1 {
     display: flex;
     height: 50px;
     width: 90%;
-
 }
 
 #lower_footer_div2 {
@@ -83,6 +75,7 @@
     font-size: 13px;
     font-weight: 600;
 }
+
 #submit {
     height: 40px;
     width: 100%;
@@ -94,87 +87,17 @@
     background-color: black;
     color: white;
 }
-#imglogo{
+
+#imglogo {
     height: 20px;
     width: 25%;
 }
-#span{
+
+#span {
     font-weight: 600;
 }
-#cartlogo{
+
+#cartlogo {
     margin: auto;
     margin-top: -40%;
-
-}
-
-
-
-
-
-
-#container{
-    width: 75%;
-    margin: auto;
-}
-#div{
-    display: flex;
-    height: 400px;
-    width: 80%;
-    margin: auto;
-    margin-top: 2%;
-
-}
-#div_left{
-  
-    width: 50%;
-    margin-right: 10%;
-    cursor: pointer;
-}
-#div_left > img{
-    height: 350px;
-   margin-bottom: 5%;
-}
-#div_right{
-    margin: 30px;
-}
-#div_right > button{
-    background-color: black;;
-    color: white;
-    border: 0px;
-    font-weight: 100;
-    font-size: 13px;
-    height: 35px;
-    width: 100%;
-}
-
-
-#div_lowerImg{
-    display: flex;
-    justify-content: space-between;
-}
-#div_price{
-    display: flex;
-    gap: 10px;
-}
-#div_size{
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-#div_price > p{
-    color:  #8e8e8e ;
-    font-weight: 600;
-}
-#guide{
-    color:  #8e8e8e ;
-    font-weight: 600;
-    cursor: pointer;
-}
-#store{
-    text-decoration: underline;
-    font-weight: 600;
-    cursor: pointer;
-}
-#dis{
-    font-weight: 600;
 }
