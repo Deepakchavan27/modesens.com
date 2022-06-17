@@ -18,5 +18,4 @@ We all became proficient in reading the code of team members. Our code writing s
 Check our website at :
 
 Netlify-https://modesens.netlify.app/
-Blog- https://medium.com/@Bhasker23/collaborative-project-bestbuy-com-clone-9f44213b14f9
-Video- https://drive.google.com/file/d/1WcFKY96q2Oa6kMf2qNtbz78tv7BCavRU/view?usp=sharing
+Video- https://drive.google.com/file/d/1Si7JQRoTeLYKOxUXAxBVndJw11SY_mN2/view?usp=sharing
