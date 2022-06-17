@@ -143,7 +143,7 @@ let navbar = () => {
                 <li class="nav dropdown">
                     <a class="nav-link active dropdown-item" href="../cart.html" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        <a id="cartlogo" href="../cart.html"><img src="https://cdn.modesens.com/static/img/20200612shopping_bag2.svg" alt=""></a>
+                        <a id="cartlogo" href="../cart.html"><img src="https://cdn.modesens.com/static/img/20200612shopping_bag2.svg" alt="cartlogo"></a>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <input type="text" name="" id="">
@@ -178,7 +178,7 @@ let navbar = () => {
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Log In</a></li>
+                        <li><a class="dropdown-item" href="./login.html">Log In</a></li>
     
                     </ul>
                 </li>

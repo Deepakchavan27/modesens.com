@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#logo {
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+
+#carouselExampleControls {
+    box-sizing: border-box;
+    padding-left: 190px;
+}
+
+#footer {
+    width: 95%;
+    margin: auto;
+}
+
+#footer_main {
+
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.footer-h6 {
+
+    letter-spacing: 2.8px;
+    line-height: 18px;
+    font-size: 15.4px;
+    padding-bottom: 2%;
+}
+
+.footer-p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 23.8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7f7f7f;
+    margin-bottom: -1%;
+
+}
+
+.footer-p:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+#lower_footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#lower_footer_div1 {
+    display: flex;
+    height: 50px;
+    width: 90%;
+
+}
+
+#lower_footer_div2 {
+    width: 25%;
+    cursor: pointer;
+}
+
+.footer_img {
+
+    height: 40px;
+    cursor: pointer;
+}
+
+.footer_p {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#submit {
+    height: 40px;
+    width: 100%;
+    font-weight: 600;
+    border: 0.5px solid black;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}
+
+#imglogo {
+    height: 20px;
+    width: 25%;
+}
+
+#span {
+    font-weight: 600;
+}
+
+#cartlogo {
+    margin: auto;
+    margin-top: -40%;
+
+}
+
+/* ---------------------------------------------------------------- */
+
+
+#flex {
+    display: flex;
+    height: 600px;
+    width: 60%;
+
+    margin: auto;
+
+}
+
+#left {
+
+    height: 600px;
+    width: 100%;
+}
+
+#ss {
+    height: 600px;
+    width: 100%;
+}
+
+#inner {
+    margin: auto;
+    height: 200px;
+    width: 10%;
+}
+#right{
+    height: 600px;
+    width: 100%;
+ 
+}
+#cross_logo{
+    height: 35px;
+    width: 8%;
+    margin-left: 90%;
+    margin-top: 2%;
+}
+#login{
+    
+   
+    height: 550px;
+    width: 90%;
+    margin: auto;
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+#heading{
+    font-size: 18px;
+}
+#dis{
+    font-size: 14px;
+    width: 65%;
+    margin: auto;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+#inner_login{
+ 
+    height: 550px;
+    width: 75%;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}       
+.input{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.input::placeholder{
+    color: black;
+    text-align: center;
+}
+#btn_login{
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: black ;
+    margin-top: 9%;
+}
+#or{
+    text-align: center;
+    color: #8E8E8E;
+    font-size: 11px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+a{
+    color: #8E8E8E;
+    font-size: 13px;
+}
+#logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    cursor: pointer;
+}   
